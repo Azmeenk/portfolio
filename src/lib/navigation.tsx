@@ -1,10 +1,7 @@
 import { useTheme } from 'next-themes';
-
 import { Status } from '~/components';
 import { usePersistantState, useStatus } from '~/lib';
-
 import { NavigationItemType, Theme } from '~/types';
-
 import type { NavigationItem, NavigationItems } from '~/types';
 
 const staticMenuItems: Array<Array<NavigationItem>> = [
@@ -17,41 +14,42 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		},
 		{
 			type: NavigationItemType.LINK,
-			icon: 'feather:edit-3',
-			text: 'Blog',
-			href: '/blog',
+			icon: 'feather:coffee',
+			text: 'About',
+			href: '/about',
 		},
 		{
 			type: NavigationItemType.LINK,
-			icon: 'feather:copy',
+			icon: 'feather:folder',
 			text: 'Projects',
 			href: '/projects',
 		},
 		{
 			type: NavigationItemType.LINK,
-			icon: 'feather:clock',
-			text: 'Timeline',
-			href: '/timeline',
-		},
-		{
-			type: NavigationItemType.LINK,
-			icon: 'feather:link',
-			text: 'Referrals',
-			href: '/referrals',
+			icon: 'feather:briefcase',
+			text: 'Work & Education',
+			href: '/work-education',
 		},
 	],
 	[
 		{
 			type: NavigationItemType.LINK,
-			icon: 'feather:twitter',
-			text: 'Twitter',
-			href: 'https://twitter.com/nurodev',
+			icon: 'feather:linkedin',
+			text: 'LinkedIn',
+			href: 'https://www.linkedin.com/in/azmeenkausarmohammad/',
 			external: true,
 		},
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:github',
 			text: 'GitHub',
+			href: 'https://github.com/Azmeenk',
+			external: true,
+		},
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:calendar',
+			text: 'Schedule a Call',
 			href: 'https://github.com/Azmeenk',
 			external: true,
 		},
