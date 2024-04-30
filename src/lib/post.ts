@@ -12,7 +12,7 @@ import RemarkSlug from 'remark-slug';
 
 import type { FrontMatter, Post, RawFrontMatter } from '~/types';
 
-const BLOG_POSTS_DIR = join(process.cwd(), 'src', 'data', 'blog');
+const BLOG_POSTS_DIR = join(process.cwd(), 'src', 'data', 'about');
 
 /**
  * Get the slugs of all available blog posts

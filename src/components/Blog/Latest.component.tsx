@@ -11,7 +11,7 @@ interface LatestProps {
 
 export function Latest({ frontmatter }: LatestProps): JSX.Element {
 	const ariaLabel = `Read blog post: ${frontmatter.title}`;
-	const href = `/blog/${frontmatter.slug}`;
+	const href = `/about/${frontmatter.slug}`;
 
 	return (
 		<Link aria-label={ariaLabel} href={href} passHref>

@@ -1,4 +1,4 @@
-export * from './blog';
+export * from './about';
 export * from './common';
 export * from './events';
 export * from './lanyard';

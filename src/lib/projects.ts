@@ -68,7 +68,7 @@ export async function fetchProjects(): Promise<Array<Project> | null> {
 				})(),
 				homepage: repo.homepage ?? undefined,
 				name: repo.name,
-				post: repoPost ? `/blog/${repoPost.post}` : undefined,
+				post: repoPost ? `/about/${repoPost.post}` : undefined,
 				template: false,
 				url: repo.html_url.toLowerCase(),
 			} as Project;
