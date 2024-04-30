@@ -4,7 +4,6 @@ import { Animate, List } from '~/components';
 import { ListActionType } from '~/types';
 
 import type { GetStaticProps } from 'next';
-
 import type { ListAction, Project } from '~/types';
 
 interface ProjectProps {
@@ -13,7 +12,7 @@ interface ProjectProps {
 
 export const getStaticProps: GetStaticProps<ProjectProps> = async () => {
 	const projects = await fetchProjects();
-
+	console.log(projects);
 	return {
 		props: {
 			stringifiedProjects: JSON.stringify(projects),

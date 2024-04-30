@@ -1,1 +1,24 @@
-[]
+[
+	{
+		"description": "Parent AI",
+		"homepage": "https://example.com",
+		"icon": "https://example.com/icon.png",
+		"language": "TypeScript",
+		"name": "Sample Project",
+		"post": "https://example.com/post",
+		"template": false,
+		"url": "https://github.com/example/sample-project",
+		"repository": ""
+	},
+	{
+		"description": "Sample project description",
+		"homepage": "https://example.com",
+		"icon": "https://example.com/icon.png",
+		"language": "TypeScript",
+		"name": "Sample Project",
+		"post": "https://example.com/post",
+		"template": false,
+		"url": "https://github.com/example/sample-project",
+		"repository": ""
+	}
+]

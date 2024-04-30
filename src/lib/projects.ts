@@ -25,7 +25,7 @@ export async function fetchProjects(): Promise<Array<Project> | null> {
 			documentation_url: string;
 			message: string;
 		};
-
+		console.log(json);
 		console.error({ error: json });
 		log.error('Failed to fetch projects', {
 			error: json,
