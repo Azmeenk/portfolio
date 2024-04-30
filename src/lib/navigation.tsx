@@ -50,7 +50,7 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			type: NavigationItemType.LINK,
 			icon: 'feather:calendar',
 			text: 'Schedule a Call',
-			href: 'https://github.com/Azmeenk',
+			href: 'https://calendly.com/azmeen-kaausar/30min',
 			external: true,
 		},
 	],

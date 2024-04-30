@@ -18,14 +18,14 @@ const Event = dynamic<EventProps>(
 const ACTIONS: Array<NavigationItem> = [
 	{
 		type: NavigationItemType.LINK,
-		href: '/projects',
+		href: 'https://drive.google.com/file/d/1Ks256uOXUGZanGTu_l4g9Cg_9vE8j7qX/view?usp=sharing',
 		icon: <Icon className="mr-3" icon="feather:download" />,
 		text: 'Download Resume',
 	},
 	{
 		type: NavigationItemType.LINK,
 		external: true,
-		href: 'https://github.com/Azmeenk',
+		href: 'https://calendly.com/azmeen-kaausar/30min',
 		icon: <Icon className="mr-3" icon="feather:phone" />,
 		text: 'Schedule a Call',
 	},
