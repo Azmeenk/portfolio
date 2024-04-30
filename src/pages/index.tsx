@@ -19,15 +19,15 @@ const ACTIONS: Array<NavigationItem> = [
 	{
 		type: NavigationItemType.LINK,
 		href: '/projects',
-		icon: <Icon className="mr-3" icon="feather:copy" />,
-		text: 'Projects',
+		icon: <Icon className="mr-3" icon="feather:download" />,
+		text: 'Download Resume',
 	},
 	{
 		type: NavigationItemType.LINK,
 		external: true,
 		href: 'https://github.com/Azmeenk',
-		icon: <Icon className="mr-3" icon="feather:github" />,
-		text: 'GitHub',
+		icon: <Icon className="mr-3" icon="feather:phone" />,
+		text: 'Schedule a Call',
 	},
 ];
 
