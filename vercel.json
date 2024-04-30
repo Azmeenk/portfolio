@@ -1,0 +1,22 @@
+{
+	"$schema": "https://openapi.vercel.sh/vercel.json",
+	"version": 2,
+	"alias": "Azmeen Kausar",
+	"cleanUrls": true,
+	"public": true,
+	"regions": ["lhr1"],
+	"redirects": [
+		{ "source": "/cv", "destination": "https://read.cv/nuro" },
+		{ "source": "/github", "destination": "https://github.com/Azmeenk" },
+		{
+			"source": "/linkedin",
+			"destination": "https://www.linkedin.com/in/azmeenkausarmohammad/"
+		},
+		{ "source": "/portfolio", "destination": "/projects" },
+		{ "source": "/resume", "destination": "https://read.cv/nuro" },
+		{
+			"source": "/contact",
+			"destination": "mailto:azmeenkausarmohammad@gmail.com"
+		}
+	]
+}
