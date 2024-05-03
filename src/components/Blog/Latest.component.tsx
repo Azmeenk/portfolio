@@ -40,9 +40,9 @@ export function Latest({ frontmatter }: LatestProps): JSX.Element {
 							{frontmatter.description || frontmatter.description}
 						</p>
 					)}
-					<div className="flex items-center mt-6 lg:mt-0 mx-6 lg:mx-0 pb-4 lg:pb-0">
+					{/* <div className="flex items-center mt-6 lg:mt-0 mx-6 lg:mx-0 pb-4 lg:pb-0">
 						<Pill.Date>{frontmatter.date}</Pill.Date>
-					</div>
+					</div> */}
 				</div>
 			</a>
 		</Link>

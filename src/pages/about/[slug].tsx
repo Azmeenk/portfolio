@@ -78,7 +78,7 @@ export default function BlogPost({ post }: BlogPostProps): JSX.Element {
 						)}
 
 						<div className="flex flex-col space-y-4 max-w-prose mx-auto my-4 text-lg text-center">
-							<div>
+							{/* <div>
 								{post.frontmatter.title_prefix && (
 									<span className="block text-primary-600 font-semibold tracking-wide uppercase text-base text-center">
 										{post.frontmatter.title_prefix}
@@ -87,11 +87,11 @@ export default function BlogPost({ post }: BlogPostProps): JSX.Element {
 								<span className="text-gray-900 dark:text-white sm:text-4xl text-3xl text-center leading-8 font-extrabold tracking-tight">
 									{post.frontmatter.title}
 								</span>
-							</div>
+							</div> */}
 
-							<span className="flex justify-center items-center">
+							{/* <span className="flex justify-center items-center">
 								<Pill.Date>{post.frontmatter.date}</Pill.Date>
-							</span>
+							</span> */}
 
 							{post.frontmatter.description && post.frontmatter.description_show && (
 								<p className="mt-8 text-xl text-gray-400 leading-8">

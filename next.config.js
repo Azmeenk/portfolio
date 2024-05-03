@@ -32,8 +32,10 @@ const config = {
 			'cdn-cf-east.streamable.com',
 
 			// Unsplash
+			'unsplash.com',
 			'source.unsplash.com',
 			'images.unsplash.com',
+			
 		],
 	},
 	// Inspired by: https://github.com/leerob/leerob.io/blob/main/next.config.js#L44-L81

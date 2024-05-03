@@ -51,9 +51,9 @@ export function _Post({ index, frontmatter }: PostProps): JSX.Element {
 								{frontmatter.description}
 							</p>
 						)}
-						<div className="flex items-start space-x-1 mt-4 text-sm">
+						{/* <div className="flex items-start space-x-1 mt-4 text-sm">
 							<Pill.Date>{frontmatter.date}</Pill.Date>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</a>
