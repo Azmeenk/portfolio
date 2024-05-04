@@ -1,3 +1,32 @@
 [
-
+	{
+		"key": "1",
+		"description": "Template repository to create a new Rust library crate, ",
+		"icon": "📦",
+		"homepage": "",
+		"name": "crate-template",
+		"post": "unddsfefined",
+		"template": false,
+		"url": "https://github.com/nurodev/crate-template"
+	},
+	{
+		"key": "2",
+		"description": " Template repository to help bootstrap a new Deno module",
+		"icon": "🦕",
+		"homepage": "",
+		"name": "deno-module",
+		"post": "undefined",
+		"template": false,
+		"url": "https://github.com/nurodev/deno-module"
+	},
+	{
+		"key": "3",
+		"description": " JavaScript / TypeScript SDK for the Lemon Squeezy API",
+		"icon": "🍋",
+		"homepage": "https://paka.dev/npm/lemonsqueezy.ts",
+		"name": "lemonsqueezy.ts",
+		"post": "undefined",
+		"template": false,
+		"url": "https://github.com/nurodev/lemonsqueezy.ts"
+	}
 ]

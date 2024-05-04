@@ -48,13 +48,13 @@ export default function BlogPost({ post }: BlogPostProps): JSX.Element {
 		<>
 			<Layout.Blog
 				seo={{
-					title: `${post.frontmatter.title} ─ blog ─ nuro`,
+					title: `${post.frontmatter.title} ─ Azmeen`,
 					description: post.frontmatter.description ?? undefined,
 					openGraph: {
 						title: post.frontmatter.title,
 						images: [
 							{
-								url: post.frontmatter.banner ?? '/banner.png',
+								url: post.frontmatter.banner,
 								alt: post.frontmatter.description,
 								width: 1280,
 								height: 720,

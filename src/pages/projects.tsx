@@ -5,24 +5,25 @@ import { ListActionType } from '~/types';
 
 import type { GetStaticProps } from 'next';
 import type { ListAction, Project } from '~/types';
+import projects from '../data/projects.json';
 
 interface ProjectProps {
 	stringifiedProjects: string;
 }
 
-export const getStaticProps: GetStaticProps<ProjectProps> = async () => {
-	const projects = await fetchProjects();
-	console.log(projects);
-	return {
-		props: {
-			stringifiedProjects: JSON.stringify(projects),
-		},
-		revalidate: 3600,
-	};
-};
+// export const getStaticProps: GetStaticProps<ProjectProps> = async () => {
+// 	const projects = await fetchProjects();
+// 	console.log(projects);
+// 	return {
+// 		props: {
+// 			stringifiedProjects: JSON.stringify(projects),
+// 		},
+// 		revalidate: 3600,
+// 	};
+// };
 
 export default function ProjectsPage({ stringifiedProjects }: ProjectProps): JSX.Element {
-	const projects = JSON.parse(stringifiedProjects) as Array<Project>;
+	// const projects = JSON.parse(stringifiedProjects) as Array<Project>;
 
 	return (
 		<Layout.Default seo={{ title: 'Azmeen Kausar' }}>
@@ -32,7 +33,7 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps): JSX
 						{projects.map((project, index) => (
 							<Animate
 								animation={{ y: [50, 0], opacity: [0, 1] }}
-								key={index}
+								key={project.key}
 								transition={{
 									delay: 0.1 * index,
 								}}>

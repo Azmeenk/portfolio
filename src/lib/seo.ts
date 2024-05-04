@@ -14,21 +14,13 @@ export function useSeoProps(
 	return {
 		title,
 		description,
-		canonical: `https://nuro.dev/${router.asPath}`,
+		canonical: `https://azmeenkausar.me/${router.asPath}`,
 		openGraph: {
 			title,
 			description,
-			site_name: 'nuro',
-			url: `https://nuro.dev/${router.asPath}`,
+			site_name: 'azmeen-kausar',
+			url: `https://azmeenkausar.me/${router.asPath}`,
 			type: 'website',
-			images: [
-				{
-					url: 'https://nuro.dev/banner.png',
-					alt: description,
-					width: 1280,
-					height: 720,
-				},
-			],
 		},
 		...props,
 	};
