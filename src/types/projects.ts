@@ -106,6 +106,7 @@ export interface GitHubRepo {
 export type GitHubRepos = Array<GitHubRepo>;
 
 export interface Project {
+	key: string;
 	description: string;
 	homepage?: string;
 	icon?: string;
@@ -118,5 +119,5 @@ export interface Project {
 
 export interface ProjectPost {
 	post: string;
-	repository: string;
+	repository?: string;
 }
