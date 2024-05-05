@@ -1,32 +1,32 @@
 [
 	{
 		"key": "1",
-		"description": "Template repository to create a new Rust library crate, ",
-		"icon": "📦",
+		"description": "Background Verification Mobile App for Aadhar, Address, PAN, Driving Licence, Work Experience",
+		"icon": "📨",
 		"homepage": "",
-		"name": "crate-template",
+		"name": "Greenie",
 		"post": "unddsfefined",
 		"template": false,
-		"url": "https://github.com/nurodev/crate-template"
+		"url": "https://github.com/CSS-545/greenie"
 	},
 	{
 		"key": "2",
-		"description": " Template repository to help bootstrap a new Deno module",
-		"icon": "🦕",
+		"description": "Implementation of Graphbridges using different parallelisation techniques and improved the efficiency by 70%",
+		"icon": "🌍",
 		"homepage": "",
-		"name": "deno-module",
+		"name": "Graph Bridges",
 		"post": "undefined",
 		"template": false,
-		"url": "https://github.com/nurodev/deno-module"
+		"url": "https://github.com/Azmeenk/Graph-Bridges"
 	},
 	{
 		"key": "3",
-		"description": " JavaScript / TypeScript SDK for the Lemon Squeezy API",
-		"icon": "🍋",
-		"homepage": "https://paka.dev/npm/lemonsqueezy.ts",
-		"name": "lemonsqueezy.ts",
+		"description": "An AI-powered app to support new parents and expectant families with limited support networks.",
+		"icon": "🤰",
+		"homepage": "https://azmeenkaausar.wixsite.com/parentai-2",
+		"name": "ParentAI",
 		"post": "undefined",
 		"template": false,
-		"url": "https://github.com/nurodev/lemonsqueezy.ts"
+		"url": "https://github.com/Azmeenk/ParentAI"
 	}
 ]
