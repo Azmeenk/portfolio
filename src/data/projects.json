@@ -9,7 +9,7 @@
 		"template": false,
 		"skills": ["React Native", "Vanilla JavaScript", "Firebase", "Google Maps Geolocation API"],
 		"url": "https://github.com/CSS-545/greenie",
-		"image": "https://github.com/Azmeenk/portfolio/blob/main/projectimages/Greenie.jpeg",
+		"image": "https://raw.githubusercontent.com/Azmeenk/portfolio/main/projectimages/Greenie.jpeg",
 		"date": "2021-06-01"
 	},
 	{
@@ -22,7 +22,7 @@
 		"template": false,
 		"skills": ["C++", "OpenMP", "MPI", "CUDA"],
 		"url": "https://github.com/Azmeenk/Graph-Bridges",
-		"image": "https://github.com/Azmeenk/portfolio/blob/main/projectimages/bridges.png",
+		"image": "https://raw.githubusercontent.com/Azmeenk/portfolio/main/projectimages/bridges.png",
 		"date": "2021-06-01"
 	},
 	{
@@ -35,7 +35,7 @@
 		"template": false,
 		"skills": ["Wix", "Figma"],
 		"url": "https://github.com/Azmeenk/ParentAI",
-		"image": "https://github.com/Azmeenk/portfolio/blob/main/projectimages/image.png",
+		"image": "https://raw.githubusercontent.com/Azmeenk/portfolio/main/projectimages/image.png",
 		"date": "2021-06-01"
 	}
 ]
