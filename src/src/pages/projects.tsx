@@ -1,34 +1,19 @@
-import { fetchProjects } from '~/lib/projects';
 import { Layout } from '~/layouts';
 import { Animate, List } from '~/components';
 import { ListActionType } from '~/types';
 
-import type { GetStaticProps } from 'next';
-import type { ListAction, Project } from '~/types';
+import type { ListAction } from '~/types';
 import projects from '../data/projects.json';
 
 interface ProjectProps {
 	stringifiedProjects: string;
 }
 
-// export const getStaticProps: GetStaticProps<ProjectProps> = async () => {
-// 	const projects = await fetchProjects();
-// 	console.log(projects);
-// 	return {
-// 		props: {
-// 			stringifiedProjects: JSON.stringify(projects),
-// 		},
-// 		revalidate: 3600,
-// 	};
-// };
-
-export default function ProjectsPage({ stringifiedProjects }: ProjectProps): JSX.Element {
-	// const projects = JSON.parse(stringifiedProjects) as Array<Project>;
-
+export default function ProjectsPage({}: ProjectProps): JSX.Element {
 	return (
 		<Layout.Default seo={{ title: 'Azmeen Kausar' }}>
 			<div className="my-24 mx-2 sm:mx-6 lg:mb-28 lg:mx-8">
-				<div className="relative max-w-xl mx-auto">
+				<div className="relative max-w-3xl mx-auto">
 					<List.Container>
 						{projects.map((project, index) => (
 							<Animate
@@ -70,6 +55,8 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps): JSX
 									description={project.description}
 									icon={<span className="text-xl">{project.icon}</span>}
 									title={project.name}
+									skills={project.skills}
+									image={project.image}
 								/>
 							</Animate>
 						))}

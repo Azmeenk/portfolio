@@ -1,0 +1,41 @@
+[
+	{
+		"key": "1",
+		"description": "Background Verification Mobile App for Aadhar, Address, PAN, Driving Licence, Work Experience",
+		"icon": "📨",
+		"homepage": "",
+		"name": "Greenie",
+		"post": "",
+		"template": false,
+		"skills": ["React Native", "Vanilla JavaScript", "Firebase", "Google Maps Geolocation API"],
+		"url": "https://github.com/CSS-545/greenie",
+		"image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg",
+		"date": "2021-06-01"
+	},
+	{
+		"key": "2",
+		"description": "Engineered 'Graph Bridges', significantly boosting computational efficiency by 70% through advanced parallelisation techniques. This project exemplifies high-performance computing and optimization.",
+		"icon": "🌍",
+		"homepage": "",
+		"name": "Graph Bridges",
+		"post": "",
+		"template": false,
+		"skills": ["C++", "OpenMP", "MPI", "CUDA"],
+		"url": "https://github.com/Azmeenk/Graph-Bridges",
+		"image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg",
+		"date": "2021-06-01"
+	},
+	{
+		"key": "3",
+		"description": "Created 'ParentAI', an innovative AI-powered application designed to assist new parents and expectant families, especially those with limited support networks.",
+		"icon": "🤰",
+		"homepage": "https://azmeenkaausar.wixsite.com/parentai-2",
+		"name": "ParentAI",
+		"post": "",
+		"template": false,
+		"skills": ["Wix", "Figma"],
+		"url": "https://github.com/Azmeenk/ParentAI",
+		"image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg",
+		"date": "2021-06-01"
+	}
+]
