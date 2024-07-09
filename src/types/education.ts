@@ -1,12 +1,10 @@
-export interface TimelineEvent {
-	date: Date | string;
-	title: string;
-	description?: string;
-	icon: string;
-	link?: {
-		text: string;
-		url: string;
-	};
+export interface EducationProps {
+	school: string;
+	major: string;
+	logo: string;
+	location: string;
+	degree: string;
+	start_year: number;
+	end_year: number | null;
+	link: string;
 }
-
-export type Timeline = Array<TimelineEvent>;
