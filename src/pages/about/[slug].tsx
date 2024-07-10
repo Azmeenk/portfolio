@@ -44,6 +44,7 @@ export const getStaticProps: GetStaticProps<BlogPostProps, PathProps> = async ({
 };
 
 export default function BlogPost({ post }: BlogPostProps): JSX.Element {
+	console.log(post)
 	return (
 		<>
 			<Layout.Blog
@@ -101,7 +102,7 @@ export default function BlogPost({ post }: BlogPostProps): JSX.Element {
 						</div>
 
 						<article className="max-w-prose prose prose-primary prose-lg text-gray-500 mx-auto">
-							<MDXRemote {...post.source} components={Blog.X} />
+							<MDXRemote {...post.source} components={Blog.X as any} />
 						</article>
 					</div>
 				</div>
