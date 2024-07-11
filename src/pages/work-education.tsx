@@ -36,7 +36,7 @@ const About = () => {
 		{
 			label: (
 				<TabLabel>
-					<EducationIcon size={17} /> Achievements 
+					<EducationIcon size={17} /> Certifications 
 				</TabLabel>
 			),
 			children: <AchievementsList />,

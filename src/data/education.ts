@@ -12,13 +12,13 @@ export const EDUCATION: Array<EducationProps> = [
 		link: 'https://www.uwb.edu/stem/graduate/mscsse',
 	},
 	{
-		school: 'Vignans LARA Institute of Technology & Science',
+		school: 'Jawaherlal Nehru Technological University',
 		major: 'Electronics and Communication',
 		logo: '/work-education/vignan.jpeg',
-		location: 'Guntur, India 🇮🇳',
+		location: 'AP, India 🇮🇳',
 		degree: 'Bachelor of Technology',
-		start_year: 2015,
-		end_year: 2017,
+		start_year: 2017,
+		end_year: 2021,
 		link: 'https://www.vignanlara.org/',
 	},
 ];
