@@ -47,7 +47,7 @@
 		"template": false,
 		"skills": ["Next.js", "JavaScript", "Mantine", "Django", "DRF", "Python", "MySql", "Sqlite", "MongoDB", "NLP", "Tensor flow"],
 		"url": "https://github.com/MillionaireLife/Chatdb",
-		"image": "/projects/chatdb.PNG",
+		"image": "/projects/chatdb.png",
 		"date": "2021-06-01"
 	}
 ]
