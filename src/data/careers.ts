@@ -14,6 +14,9 @@ export const CAREERS: Array<CareerProps> = [
 		link: 'https://depts.washington.edu/stemadv/Spring-2024/csse-abstract-page.html?csse-3-245',
 		responsibilities: [
 			'Joined icare Research group related to Artificial Intelligence and Machine Learning with Dr. DongSi',
+			'Active contributor to the iCare project, a mental health-focused chatbot platform utilizing AI to provide therapeutic and empathetic responses.',
+			'Leading the development and integration of frontend (React.js, Next.js) and backend (Django, FastAPI) components, ensuring seamless interaction between the chatbots and users.',
+			'Collaborated on AI model enhancement, incorporating machine learning methods and open-source LLMs (like Llama2) to improve the adaptive capabilities of Carebot and Coachbot.'
 		],
 	},
 	{

@@ -18,7 +18,7 @@ const Event = dynamic<EventProps>(
 const ACTIONS: Array<NavigationItem> = [
 	{
 		type: NavigationItemType.LINK,
-		href: 'https://docs.google.com/document/d/1aQhNSByVGtAxy2eIstcR3t5wRvUDB43oqyWgH0TbKkY/edit?usp=sharing',
+		href: 'https://docs.google.com/document/d/1f4_4b_MwDPqp1n_MTJPcp8547QUcpLBpeNK6rFcrW4k/edit?usp=sharing',
 		icon: <Icon className="mr-3" icon="feather:download" />,
 		text: 'Download Resume',
 	},

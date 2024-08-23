@@ -37,5 +37,17 @@
 		"url": "https://github.com/Azmeenk/ParentAI",
 		"image": "/projects/parentai.PNG",
 		"date": "2021-06-01"
+	},
+	{
+		"key": "4",
+		"description": "Developed an AI-powered chat model using Next.js and python django rest framework to  convert natural language database queries into precise data outputs. ",
+		"icon": "🤰",
+		"name": "ChatDB",
+		"post": "",
+		"template": false,
+		"skills": ["Next.js", "JavaScript", "Mantine", "Django", "DRF", "Python", "MySql", "Sqlite", "MongoDB", "NLP", "Tensor flow"],
+		"url": "https://github.com/MillionaireLife/Chatdb",
+		"image": "/projects/chatdb.PNG",
+		"date": "2021-06-01"
 	}
 ]
